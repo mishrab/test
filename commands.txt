@@ -1,0 +1,50 @@
+doskey /history > commands.txt
+cls
+git branch
+git branch codechix
+git branch 
+git branch -a
+git branch -avv
+doskey /history > commands.txt
+git statys
+git status
+git add .
+git commit -m "for commands.txt"
+cls
+git branch -avv
+git checkout codechix
+git branch -avv
+git status
+git push -u origin codechix
+cls
+git remote add publish https://github.com/mishrab/test.git
+git branch
+git push -u publish master
+git push -u publish codechix
+doskey /history > commands.txt
+cd ..
+cd gittraining
+cd session
+cls
+git push origin master
+git remote add origin https://github.com/mishrab/session.git
+cls
+git push origin master
+cls
+cd ..
+git clone https://github.com/kevinsawicki/codechix-test-repo.git
+cd..
+cd codechix-test-repo
+cd gitTraining
+cls
+cd codechix-test-repo
+git log
+touch test.txt
+cls
+git add .
+git status
+git commit -m "Second commit"
+git log
+git show 
+git log --format=full
+git log --graph --oneline
