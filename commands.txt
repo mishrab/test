@@ -1,0 +1,50 @@
+doskey /history > commands.txt
+cls
+git branch
+git branch codechix
+git branch 
+git branch -a
+git branch -avv
+doskey /history > commands.txt
+cd ..
+mkdir git
+cd git
+git clone git@github.com:mishrab/session.git
+git status
+git branch iss53
+cd session
+cls
+git branch iss53
+git checkout iss53
+git status
+git add .
+git statys
+git status
+git commit -m "first branching commit iss53"
+git push origin master
+cd ..
+cd gittraining
+cd session
+cls
+git push origin master
+git remote add origin https://github.com/mishrab/session.git
+cls
+git push origin master
+cls
+cd ..
+git clone https://github.com/kevinsawicki/codechix-test-repo.git
+cd..
+cd codechix-test-repo
+cd gitTraining
+cls
+cd codechix-test-repo
+git log
+touch test.txt
+cls
+git add .
+git status
+git commit -m "Second commit"
+git log
+git show 
+git log --format=full
+git log --graph --oneline
